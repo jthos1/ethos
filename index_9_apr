@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo de Secciones HTML con CSS</title>
+<style>
+    /* Estilos para el elemento con el id "seccion1" */
+    #seccion1 {
+        background-color: #2bbff0057;
+        color: #c2d41a;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para elementos con la clase "seccion2" */
+    .seccion2 {
+        background-color: #ffc107;
+        color: #333;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para elementos con la clase "seccion3" que están dentro de la clase "seccion2" */
+    .seccion2 .seccion3 {
+        background-color: #28a745;
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+
+<section id="seccion1">
+    <h2>Sección con ID</h2>
+    <p>Esta es una sección con un identificador (ID).</p>
+</section>
+
+<section class="seccion2">
+    <h2>Sección con Clase</h2>
+    <p>Esta es una sección con una clase (class).</p>
+    <div class="seccion3">
+        <h3>Sección Anidada</h3>
+        <p>Esta es una sección anidada dentro de otra sección con clase.</p>
+    </div>
+</section>
+
+<section class="seccion2">
+    <h2>Otra Sección con Clase</h2>
+    <p>Esta es otra sección con la misma clase (class).</p>
+</section>
+
+</body>
+</html>
