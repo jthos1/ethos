@@ -13,7 +13,6 @@
         margin-bottom: 20px;
     }
 
-    /* Estilos para elementos con la clase "seccion2" */
     .seccion2 {
         background-color: #ffc107;
         color: #333;
@@ -21,7 +20,6 @@
         margin-bottom: 20px;
     }
 
-    /* Estilos para elementos con la clase "seccion3" que están dentro de la clase "seccion2" */
     .seccion2 .seccion3 {
         background-color: #28a745;
         color: #fff;
