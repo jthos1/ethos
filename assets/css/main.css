@@ -1,5 +1,6 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&display=swap');
 </style>
 
 /*
@@ -141,7 +142,12 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fdh3yu;
-		font-weight: 400;
+		.rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
